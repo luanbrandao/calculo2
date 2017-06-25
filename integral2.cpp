@@ -16,8 +16,8 @@ double func1(double x){
 }
 //funcao integral da segunda opcao
 double func2(double x){
-		double valor = x * x * x; // x³ equivalente a x ao cubo
-		return sin(valor);
+		//double valor = x * x * x; // x³ equivalente a x ao cubo
+		return sin( pow(x,3));
 }
 
 double func3(double x){
